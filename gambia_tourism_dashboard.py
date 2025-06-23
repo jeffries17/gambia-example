@@ -837,71 +837,64 @@ def main():
         st.markdown("## 🛣️ Implementation Framework")
         st.markdown("### Strategic Development Pathway for Tourism Intelligence")
         
-        # Create horizontal timeline using HTML and CSS
-        st.markdown("""
-        <div style="margin: 30px 0;">
-            <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 20px;">
-                <!-- Phase 1 -->
-                <div style="flex: 1; text-align: center; position: relative; margin: 0 10px;">
-                    <div style="background: #2E86AB; color: white; border-radius: 50%; width: 60px; height: 60px; display: flex; align-items: center; justify-content: center; margin: 0 auto 15px; font-weight: bold; font-size: 18px;">1</div>
-                    <div style="background: #f8f9fa; padding: 20px; border-radius: 10px; border-left: 4px solid #2E86AB; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-                        <h4 style="color: #2E86AB; margin-bottom: 10px;">Digital Reputation Approach</h4>
-                        <p style="color: #666; font-size: 12px; margin-bottom: 10px;"><strong>0-6 months</strong></p>
-                        <ul style="text-align: left; font-size: 13px; color: #444;">
-                            <li>Comprehensive sentiment analysis across Gambian tourism sites</li>
-                            <li>Digital reputation assessment for key tourism experiences</li>
-                            <li>Baseline establishment for continuous monitoring</li>
-                        </ul>
-                    </div>
-                </div>
-                
-                <!-- Arrow -->
-                <div style="display: flex; align-items: center; margin-top: 30px;">
-                    <div style="width: 40px; height: 2px; background: #ddd; margin: 0 10px;"></div>
-                    <div style="color: #2E86AB; font-size: 20px;">→</div>
-                    <div style="width: 40px; height: 2px; background: #ddd; margin: 0 10px;"></div>
-                </div>
-                
-                <!-- Phase 2 -->
-                <div style="flex: 1; text-align: center; position: relative; margin: 0 10px;">
-                    <div style="background: #A23B72; color: white; border-radius: 50%; width: 60px; height: 60px; display: flex; align-items: center; justify-content: center; margin: 0 auto 15px; font-weight: bold; font-size: 18px;">2</div>
-                    <div style="background: #f8f9fa; padding: 20px; border-radius: 10px; border-left: 4px solid #A23B72; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-                        <h4 style="color: #A23B72; margin-bottom: 10px;">Workshop + Pitch Training</h4>
-                        <p style="color: #666; font-size: 12px; margin-bottom: 10px;"><strong>6-12 months</strong></p>
-                        <ul style="text-align: left; font-size: 13px; color: #444;">
-                            <li>Stakeholder training on interpreting sentiment data</li>
-                            <li>Tourism operator workshops on digital engagement</li>
-                            <li>Pitch development for international tourism investment</li>
-                        </ul>
-                    </div>
-                </div>
-                
-                <!-- Arrow -->
-                <div style="display: flex; align-items: center; margin-top: 30px;">
-                    <div style="width: 40px; height: 2px; background: #ddd; margin: 0 10px;"></div>
-                    <div style="color: #A23B72; font-size: 20px;">→</div>
-                    <div style="width: 40px; height: 2px; background: #ddd; margin: 0 10px;"></div>
-                </div>
-                
-                <!-- Phase 3 -->
-                <div style="flex: 1; text-align: center; position: relative; margin: 0 10px;">
-                    <div style="background: #F18F01; color: white; border-radius: 50%; width: 60px; height: 60px; display: flex; align-items: center; justify-content: center; margin: 0 auto 15px; font-weight: bold; font-size: 18px;">3</div>
-                    <div style="background: #f8f9fa; padding: 20px; border-radius: 10px; border-left: 4px solid #F18F01; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-                        <h4 style="color: #F18F01; margin-bottom: 10px;">Digital Travel Fair</h4>
-                        <p style="color: #666; font-size: 12px; margin-bottom: 10px;"><strong>12-18 months</strong></p>
-                        <ul style="text-align: left; font-size: 13px; color: #444;">
-                            <li>Data-driven presentations to international tour operators</li>
-                            <li>Evidence-based positioning of Gambian tourism experiences</li>
-                            <li>Partnership development based on sentiment analysis insights</li>
-                        </ul>
-                    </div>
-                </div>
+        # Create simple timeline using Streamlit columns
+        col1, col2, col3 = st.columns(3)
+        
+        with col1:
+            st.markdown("""
+            <div style="text-align: center; margin-bottom: 20px;">
+                <div style="background: #2E86AB; color: white; border-radius: 50%; width: 50px; height: 50px; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: 16px; margin-bottom: 10px;">1</div>
             </div>
-        </div>
-        """, unsafe_allow_html=True)
+            """, unsafe_allow_html=True)
+            
+            st.markdown("#### 🔍 Digital Reputation Approach")
+            st.markdown("**Timeline:** 0-6 months")
+            
+            st.markdown("""
+            **Objectives:**
+            - Comprehensive sentiment analysis across Gambian tourism sites
+            - Digital reputation assessment for key tourism experiences  
+            - Baseline establishment for continuous monitoring
+            """)
+        
+        with col2:
+            st.markdown("""
+            <div style="text-align: center; margin-bottom: 20px;">
+                <div style="background: #A23B72; color: white; border-radius: 50%; width: 50px; height: 50px; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: 16px; margin-bottom: 10px;">2</div>
+            </div>
+            """, unsafe_allow_html=True)
+            
+            st.markdown("#### 🎯 Workshop + Pitch Training")  
+            st.markdown("**Timeline:** 6-12 months")
+            
+            st.markdown("""
+            **Objectives:**
+            - Stakeholder training on interpreting sentiment data
+            - Tourism operator workshops on digital engagement
+            - Pitch development for international tourism investment
+            """)
+        
+        with col3:
+            st.markdown("""
+            <div style="text-align: center; margin-bottom: 20px;">
+                <div style="background: #F18F01; color: white; border-radius: 50%; width: 50px; height: 50px; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: 16px; margin-bottom: 10px;">3</div>
+            </div>
+            """, unsafe_allow_html=True)
+            
+            st.markdown("#### 🌍 Digital Travel Fair")
+            st.markdown("**Timeline:** 12-18 months")
+            
+            st.markdown("""
+            **Objectives:**
+            - Data-driven presentations to international tour operators
+            - Evidence-based positioning of Gambian tourism experiences
+            - Partnership development based on sentiment analysis insights
+            """)
+        
+        # Add connecting arrows between phases
+        st.markdown("---")
         
         # Value proposition with improved formatting
-        st.markdown("---")
         st.markdown("### Expected ROI for Tourism & Development Stakeholders")
         
         st.markdown("**National Tourism Intelligence Benefits:**")
