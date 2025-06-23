@@ -1,0 +1,32 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // User profiles - only accessible by the user themselves
+    match /users/{userId} {
+      allow read: if request.auth != null && request.auth.uid == userId;
+      allow write: if request.auth != null && request.auth.uid == userId;
+    }
+    
+    // Analysis reports - users can only see their own reports
+    match /reports/{reportId} {
+      allow read: if request.auth != null && resource.data.userId == request.auth.uid;
+      allow create: if request.auth != null && request.resource.data.userId == request.auth.uid;
+      allow update, delete: if request.auth != null && resource.data.userId == request.auth.uid;
+    }
+    
+    // Usage tracking - only the user can see their usage, but admins can write to it
+    match /usage/{usageId} {
+      allow read: if request.auth != null && resource.data.userId == request.auth.uid;
+      allow create: if request.auth != null; 
+      // Only admins can modify usage records
+      allow update, delete: if false;
+    }
+    
+    // Public app configurations
+    match /configs/public {
+      allow read: if true;
+      allow write: if false;
+    }
+  }
+} 
