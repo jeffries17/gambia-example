@@ -185,14 +185,14 @@ def load_gambia_data():
         return None
 
 @st.cache_data
-def load_ai_insights():
-    """Load AI insights data."""
+def load_strategic_insights():
+    """Load strategic insights data."""
     try:
-        file_path = "sentiment_analyzer/outputs/gambia_insights/ai_insights/gambia_ai_insights_20250623.json"
+        file_path = "sentiment_analyzer/outputs/gambia_insights/strategic_insights/gambia_strategic_insights_20250623.json"
         with open(file_path, 'r') as f:
             return json.load(f)
     except Exception as e:
-        st.error(f"Error loading AI insights: {e}")
+        st.error(f"Error loading strategic insights: {e}")
         return None
 
 def create_sentiment_donut_chart(data, title="Sentiment Distribution"):
@@ -350,12 +350,12 @@ def create_empty_chart(title):
     )
     return fig
 
-def parse_ai_insights(insights_data):
-    """Parse AI insights into structured format."""
-    if not insights_data or 'ai_response' not in insights_data:
+def parse_strategic_insights(insights_data):
+    """Parse strategic insights into structured format."""
+    if not insights_data or 'strategic_response' not in insights_data:
         return []
     
-    response = insights_data['ai_response']
+    response = insights_data['strategic_response']
     insights = []
     
     # Split by INSIGHT patterns
@@ -475,7 +475,7 @@ def main():
     
     # Load data
     data = load_gambia_data()
-    insights_data = load_ai_insights()
+    insights_data = load_strategic_insights()
     review_excerpts = get_review_excerpts()
     
     if not data:
@@ -621,7 +621,7 @@ def main():
         """, unsafe_allow_html=True)
         
         if insights_data:
-            parsed_insights = parse_ai_insights(insights_data)
+            parsed_insights = parse_strategic_insights(insights_data)
             
             if parsed_insights:
                 # Short-term recommendations
