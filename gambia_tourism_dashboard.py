@@ -518,8 +518,17 @@ def main():
     # Header
     st.markdown("""
     <div class="main-header">
-        <h1>🏝️ Gambia Tourism Analytics</h1>
-        <p>Kunta Kinteh Island - UNESCO World Heritage Site Analysis</p>
+        <h1>🏝️ Gambia Digital Tourism Analysis</h1>
+        <p>Kunta Kinteh Island - UNESCO World Heritage Site</p>
+    </div>
+    """, unsafe_allow_html=True)
+    
+    # Impact of Analysis section
+    st.markdown("""
+    <div class="info-section" style="margin-bottom: 25px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; border-radius: 10px; padding: 20px;">
+        <h3 style="color: white; margin-bottom: 15px;">📊 Research Impact & Methodology</h3>
+        <p style="margin-bottom: 10px;"><strong>Transforming Tourism Through Data:</strong> This analysis demonstrates how digital sentiment analysis can revolutionize tourism management in West Africa, providing evidence-based insights for sustainable heritage site development.</p>
+        <p style="margin-bottom: 0;"><strong>Strategic Value:</strong> By analyzing visitor feedback patterns, this research enables targeted interventions that improve visitor experience while preserving cultural heritage - a replicable model for tourism development across The Gambia and the region.</p>
     </div>
     """, unsafe_allow_html=True)
     
