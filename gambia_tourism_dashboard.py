@@ -668,8 +668,8 @@ def main():
                 with st.expander("🔍 Digital Reputation Management", expanded=True):
                     if len(parsed_insights) > 1:
                         insight = parsed_insights[1]
-                        st.markdown('<h3 style="color: #E74C3C; font-size: 1.8rem; font-weight: 700;">🚨 CHALLENGE</h3>', unsafe_allow_html=True)
-                        st.write(insight['issue'])
+                        st.markdown('<h3 style="color: #E74C3C; font-size: 1.6rem; font-weight: 700;">🚨 CHALLENGE</h3>', unsafe_allow_html=True)
+                        st.markdown(f'<p style="font-size: 1.2rem; font-weight: 500; color: #2c3e50; line-height: 1.4; margin: 15px 0;">{insight["issue"]}</p>', unsafe_allow_html=True)
                         
                         col1, col2, col3 = st.columns(3)
                         with col1:
@@ -685,8 +685,8 @@ def main():
                 with st.expander("🌐 Digital Visibility Enhancement"):
                     if len(parsed_insights) > 2:
                         insight = parsed_insights[2]
-                        st.markdown('<h3 style="color: #E74C3C; font-size: 1.8rem; font-weight: 700;">🚨 CHALLENGE</h3>', unsafe_allow_html=True)
-                        st.write(insight['issue'])
+                        st.markdown('<h3 style="color: #E74C3C; font-size: 1.6rem; font-weight: 700;">🚨 CHALLENGE</h3>', unsafe_allow_html=True)
+                        st.markdown(f'<p style="font-size: 1.2rem; font-weight: 500; color: #2c3e50; line-height: 1.4; margin: 15px 0;">{insight["issue"]}</p>', unsafe_allow_html=True)
                         
                         col1, col2, col3 = st.columns(3)
                         with col1:
@@ -706,8 +706,8 @@ def main():
                 with st.expander("🏛️ Infrastructure & Preservation", expanded=True):
                     if len(parsed_insights) > 0:
                         insight = parsed_insights[0]
-                        st.markdown('<h3 style="color: #E74C3C; font-size: 1.8rem; font-weight: 700;">🚨 CHALLENGE</h3>', unsafe_allow_html=True)
-                        st.write(insight['issue'])
+                        st.markdown('<h3 style="color: #E74C3C; font-size: 1.6rem; font-weight: 700;">🚨 CHALLENGE</h3>', unsafe_allow_html=True)
+                        st.markdown(f'<p style="font-size: 1.2rem; font-weight: 500; color: #2c3e50; line-height: 1.4; margin: 15px 0;">{insight["issue"]}</p>', unsafe_allow_html=True)
     
     with tab4:
         # Enhanced Methodology with more context
