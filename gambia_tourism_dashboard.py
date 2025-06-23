@@ -100,18 +100,19 @@ st.markdown("""
     }
     
     .info-section {
-        background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+        background: linear-gradient(135deg, #2E86AB 0%, #A23B72 100%);
         padding: 2rem;
         border-radius: 15px;
         margin: 2rem 0;
+        color: white;
     }
     
     .methodology-section {
-        background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+        background: linear-gradient(135deg, #2E86AB 0%, #A23B72 100%);
         padding: 2rem;
         border-radius: 15px;
         margin: 2rem 0;
-        color: #2c3e50;
+        color: white;
     }
     
     .section-title {
@@ -159,11 +160,11 @@ st.markdown("""
     }
     
     .expansion-panel {
-        background: linear-gradient(135deg, #d299c2 0%, #fef9d7 100%);
+        background: linear-gradient(135deg, #2E86AB 0%, #A23B72 100%);
         padding: 2rem;
         border-radius: 15px;
         margin: 2rem 0;
-        color: #2c3e50;
+        color: white;
     }
     
     #MainMenu {visibility: hidden;}
@@ -523,15 +524,6 @@ def main():
     </div>
     """, unsafe_allow_html=True)
     
-    # Impact of Analysis section
-    st.markdown("""
-    <div class="info-section" style="margin-bottom: 25px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; border-radius: 10px; padding: 20px;">
-        <h3 style="color: white; margin-bottom: 15px;">📊 Research Impact & Methodology</h3>
-        <p style="margin-bottom: 10px;"><strong>Transforming Tourism Through Data:</strong> This analysis demonstrates how digital sentiment analysis can revolutionize tourism management in West Africa, providing evidence-based insights for sustainable heritage site development.</p>
-        <p style="margin-bottom: 0;"><strong>Strategic Value:</strong> By analyzing visitor feedback patterns, this research enables targeted interventions that improve visitor experience while preserving cultural heritage - a replicable model for tourism development across The Gambia and the region.</p>
-    </div>
-    """, unsafe_allow_html=True)
-    
     # Load data
     data = load_gambia_data()
     insights_data = load_strategic_insights()
@@ -786,6 +778,16 @@ def main():
             - Online review bias toward extreme experiences
             - Temporal clustering may not represent seasonal patterns
             """)
+        
+        # Research Impact section moved to bottom of Methodology
+        st.markdown("---")
+        st.markdown("""
+        <div class="methodology-section">
+            <h3 style="color: white; margin-bottom: 15px;">📊 Research Impact & Strategic Value</h3>
+            <p style="margin-bottom: 15px;"><strong>Transforming Tourism Through Data:</strong> This analysis demonstrates how digital sentiment analysis can revolutionize tourism management in West Africa, providing evidence-based insights for sustainable heritage site development.</p>
+            <p style="margin-bottom: 0;"><strong>Strategic Value:</strong> By analyzing visitor feedback patterns, this research enables targeted interventions that improve visitor experience while preserving cultural heritage - a replicable model for tourism development across The Gambia and the region.</p>
+        </div>
+        """, unsafe_allow_html=True)
     
     with tab5:
         # Analysis Next Steps - moved to final tab
