@@ -178,10 +178,12 @@ def load_gambia_data():
     """Load Gambia tourism analysis data."""
     try:
         file_path = "sentiment_analyzer/outputs/gambia_insights/tourism_insights_Gambia Tourism Destinations_20250623_153533.json"
+        if not os.path.exists(file_path):
+            file_path = "outputs/gambia_insights/tourism_insights_Gambia Tourism Destinations_20250623_153533.json"
         with open(file_path, 'r') as f:
             return json.load(f)
     except Exception as e:
-        st.error(f"Error loading Gambia data: {e}")
+        st.error(f"Error loading Gambia data from {file_path}: {e}")
         return None
 
 @st.cache_data
@@ -189,10 +191,12 @@ def load_strategic_insights():
     """Load strategic insights data."""
     try:
         file_path = "sentiment_analyzer/outputs/gambia_insights/strategic_insights/gambia_strategic_insights_20250623.json"
+        if not os.path.exists(file_path):
+            file_path = "outputs/gambia_insights/strategic_insights/gambia_strategic_insights_20250623.json"
         with open(file_path, 'r') as f:
             return json.load(f)
     except Exception as e:
-        st.error(f"Error loading strategic insights: {e}")
+        st.error(f"Error loading strategic insights from {file_path}: {e}")
         return None
 
 def create_sentiment_donut_chart(data, title="Sentiment Distribution"):
