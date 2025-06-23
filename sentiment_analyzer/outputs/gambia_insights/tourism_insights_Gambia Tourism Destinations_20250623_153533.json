@@ -1,0 +1,978 @@
+{
+  "analysis_metadata": {
+    "destination": "Gambia Tourism Destinations",
+    "category": "Tourism",
+    "location": "Gambia",
+    "total_reviews": 24,
+    "analysis_date": "2025-06-23T15:35:33.509820",
+    "source_url": "gambia_reviews.json"
+  },
+  "overall_sentiment": {
+    "overall_score": 0.16883711167647678,
+    "sentiment_distribution": {
+      "positive_percentage": 58.333333333333336,
+      "negative_percentage": 0.0,
+      "neutral_percentage": 41.66666666666667
+    },
+    "rating_distribution": {
+      "5": "11",
+      "4": "7",
+      "3": "6"
+    },
+    "average_rating": 4.208333333333333,
+    "total_reviews": 24,
+    "confidence_level": "Low"
+  },
+  "aspect_sentiment": {
+    "accommodation": {
+      "mention_count": 5,
+      "mention_percentage": 20.833333333333336,
+      "average_sentiment": 0.34876647973238883,
+      "sentiment_distribution": {
+        "positive": "5"
+      },
+      "sub_aspects": {
+        "service": {
+          "mention_count": 1,
+          "average_sentiment": 0.6666666666666666,
+          "key_phrases": [
+            "We offer the best service eve \nWith keba ecotours gambia u get the best experience u need to now"
+          ]
+        },
+        "amenities": {
+          "mention_count": 3,
+          "average_sentiment": 0.19238857733175915,
+          "key_phrases": [
+            "This is an interesting and important place to visit on a trip to Gambia.",
+            "We were staying on the coast in the beach resorts (Kololi/Senegambia)."
+          ]
+        }
+      }
+    },
+    "restaurants": {
+      "mention_count": 5,
+      "mention_percentage": 20.833333333333336,
+      "average_sentiment": 0.26354908842804103,
+      "sentiment_distribution": {
+        "positive": "5"
+      },
+      "sub_aspects": {
+        "food_quality": {
+          "mention_count": 1,
+          "average_sentiment": 0.13207644628099177,
+          "key_phrases": []
+        },
+        "service": {
+          "mention_count": 3,
+          "average_sentiment": 0.20279014738006831,
+          "key_phrases": []
+        },
+        "value": {
+          "mention_count": 2,
+          "average_sentiment": 0.1707257231404959,
+          "key_phrases": []
+        }
+      }
+    },
+    "attractions": {
+      "mention_count": 22,
+      "mention_percentage": 91.66666666666666,
+      "average_sentiment": 0.16145866728342925,
+      "sentiment_distribution": {
+        "positive": "13",
+        "neutral": "9"
+      },
+      "sub_aspects": {
+        "experience_quality": {
+          "mention_count": 2,
+          "average_sentiment": 0.34333333333333327,
+          "key_phrases": [
+            "The area was beautiful.",
+            "A beautiful place with a terribly sad history."
+          ]
+        },
+        "accessibility": {
+          "mention_count": 2,
+          "average_sentiment": 0.15103822314049586,
+          "key_phrases": [
+            "The story heard from the natives, whose ancestors were part of it, reaches people differently."
+          ]
+        },
+        "value": {
+          "mention_count": 5,
+          "average_sentiment": 0.24515623128518388,
+          "key_phrases": [
+            "However, hearing the history definitely makes it an important and worthwhile visit.",
+            "Overall, definitely worth the stop and knowledge gained.",
+            "I believe it's worth a visit.",
+            "Entry to it is free, but if you desire to take photos then you'll have to pay 100 Gambian Dalasi."
+          ]
+        },
+        "facilities": {
+          "mention_count": 1,
+          "average_sentiment": 0.13207644628099177,
+          "key_phrases": []
+        }
+      }
+    },
+    "transportation": {
+      "mention_count": 8,
+      "mention_percentage": 33.33333333333333,
+      "average_sentiment": 0.19994333554702873,
+      "sentiment_distribution": {
+        "positive": "6",
+        "neutral": "2"
+      },
+      "sub_aspects": {
+        "quality": {
+          "mention_count": 1,
+          "average_sentiment": 0.20937499999999998,
+          "key_phrases": []
+        },
+        "cost": {
+          "mention_count": 2,
+          "average_sentiment": 0.1707257231404959,
+          "key_phrases": []
+        }
+      }
+    },
+    "local_culture": {
+      "mention_count": 11,
+      "mention_percentage": 45.83333333333333,
+      "average_sentiment": 0.20935672850625242,
+      "sentiment_distribution": {
+        "positive": "8",
+        "neutral": "3"
+      },
+      "sub_aspects": {
+        "friendliness": {
+          "mention_count": 1,
+          "average_sentiment": 0.24057971014492754,
+          "key_phrases": []
+        },
+        "authenticity": {
+          "mention_count": 2,
+          "average_sentiment": 0.10889536599763874,
+          "key_phrases": [
+            "I was the only tourist there and, although it was dilapidated, it felt very authentic.",
+            "I learned a lot there and really appreciated the knowledge from my guide and the museum."
+          ]
+        },
+        "cultural_richness": {
+          "mention_count": 7,
+          "average_sentiment": 0.12016686588397486,
+          "key_phrases": [
+            "However, hearing the history definitely makes it an important and worthwhile visit.",
+            "A beautiful place with a terribly sad history.",
+            "The history of this place moved me deeply.",
+            "A fascinating day trip around the island learning about the slave trade and past history.",
+            "A UNESCO world heritage site."
+          ]
+        }
+      }
+    }
+  },
+  "keywords_phrases": {
+    "positive_keywords": [
+      {
+        "word": "island",
+        "frequency": 16,
+        "percentage": 1.9024970273483945,
+        "sentiment_score": 0.30731621088068717,
+        "example_phrases": [
+          "The island itself isn't big, so it doesn't take long to visit.",
+          "Daarna Had Mo een bootje geregeld incl de gids om de oversteek te maken naar Kunta Kinthe Island.",
+          "You will probably not hang around the island more than 15 minutes."
+        ]
+      },
+      {
+        "word": "ferry",
+        "frequency": 13,
+        "percentage": 1.5457788347205708,
+        "sentiment_score": 0.29267111758465514,
+        "example_phrases": [
+          "Aan het einde van deze trip had Mo een lunch geregeld ter plekke, om vervolgens weer richting de ferry te gaan.",
+          "Took the ferry at 6 am from Banjul to Barra.",
+          "The ferry is inconsistent and isn't in the best of shape."
+        ]
+      },
+      {
+        "word": "gambia",
+        "frequency": 10,
+        "percentage": 1.1890606420927468,
+        "sentiment_score": 0.28921222788657325,
+        "example_phrases": [
+          "Traveling with Malcolm  from Gambia Favourite Tours is always interesting and well organized.",
+          "We offer the best service eve \nWith keba ecotours gambia u get the best experience u need to now",
+          "Entry to it is free, but if you desire to take photos then you'll have to pay 100 Gambian Dalasi."
+        ]
+      },
+      {
+        "word": "guide",
+        "frequency": 9,
+        "percentage": 1.070154577883472,
+        "sentiment_score": 0.19318574829320878,
+        "example_phrases": [
+          "A very interesting, sad, happy day, thanks to our guide Lamin.",
+          "Le guide nous relate l'histoire de l'esclavage en anglais (Bamba est là pour nous traduire en Français).",
+          "We went with a guide to make things easier, though you could figure it out yourself if you wanted."
+        ]
+      },
+      {
+        "word": "museum",
+        "frequency": 9,
+        "percentage": 1.070154577883472,
+        "sentiment_score": 0.24379090702336756,
+        "example_phrases": [
+          "Hier had Mo een gids geregeld die ons alles kon vertellen tijdens het bezoek aan het museum.",
+          "This is typically followed by a tour of a slave trade museum which is housed in an old British warehouse.",
+          "The museum is informative but could use some better upkeep."
+        ]
+      },
+      {
+        "word": "kunta",
+        "frequency": 9,
+        "percentage": 1.070154577883472,
+        "sentiment_score": 0.3624492489833399,
+        "example_phrases": [
+          "Daarna Had Mo een bootje geregeld incl de gids om de oversteek te maken naar Kunta Kinthe Island.",
+          "Day trip to kunta kinte island.",
+          "The journey from Kololi to Kunta Kinteh is a long one, but well worth it to learn more about the appalling trade in human lives that was carried out."
+        ]
+      },
+      {
+        "word": "nous",
+        "frequency": 8,
+        "percentage": 0.9512485136741973,
+        "sentiment_score": 0.21428571428571427,
+        "example_phrases": [
+          "Le trajet en ferry est une expérience nouvelle pour nous.",
+          "Le guide nous relate l'histoire de l'esclavage en anglais (Bamba est là pour nous traduire en Français).",
+          "C'est la 4e fois que nous venons en Gambie,  nous avons fait un certain nombre de visites."
+        ]
+      },
+      {
+        "word": "interesting",
+        "frequency": 7,
+        "percentage": 0.8323424494649228,
+        "sentiment_score": 0.1784331463990555,
+        "example_phrases": [
+          "Traveling with Malcolm  from Gambia Favourite Tours is always interesting and well organized.",
+          "A very interesting, sad, happy day, thanks to our guide Lamin.",
+          "This is an interesting and important place to visit on a trip to Gambia."
+        ]
+      },
+      {
+        "word": "kinteh",
+        "frequency": 7,
+        "percentage": 0.8323424494649228,
+        "sentiment_score": 0.25200720680834315,
+        "example_phrases": [
+          "The journey from Kololi to Kunta Kinteh is a long one, but well worth it to learn more about the appalling trade in human lives that was carried out.",
+          "Vient ensuite la visite du musée (séquence émotion en ce qui me concerne 😪)\nEt pour finir la rencontre avec la 8e génération de Kunta Kinteh."
+        ]
+      },
+      {
+        "word": "een",
+        "frequency": 6,
+        "percentage": 0.713436385255648,
+        "sentiment_score": 0.33019323671497586,
+        "example_phrases": [
+          "Hier had Mo een gids geregeld die ons alles kon vertellen tijdens het bezoek aan het museum.",
+          "Daarna Had Mo een bootje geregeld incl de gids om de oversteek te maken naar Kunta Kinthe Island.",
+          "Aan het einde van deze trip had Mo een lunch geregeld ter plekke, om vervolgens weer richting de ferry te gaan."
+        ]
+      },
+      {
+        "word": "took",
+        "frequency": 6,
+        "percentage": 0.713436385255648,
+        "sentiment_score": 0.27345809966548607,
+        "example_phrases": [
+          "Took the ferry at 6 am from Banjul to Barra."
+        ]
+      },
+      {
+        "word": "experience",
+        "frequency": 6,
+        "percentage": 0.713436385255648,
+        "sentiment_score": 0.3121744557731465,
+        "example_phrases": [
+          "We offer the best service eve \nWith keba ecotours gambia u get the best experience u need to now",
+          "We had a much more authentic journey than that we would have experienced in an air-conditioned coach!",
+          "Regardless the island itself is slowly deteriorating and the locals try their best to make it an enjoyable experience."
+        ]
+      },
+      {
+        "word": "history",
+        "frequency": 5,
+        "percentage": 0.5945303210463734,
+        "sentiment_score": 0.20941576086956523,
+        "example_phrases": [
+          "However, hearing the history definitely makes it an important and worthwhile visit.",
+          "A beautiful place with a terribly sad history.",
+          "The history of this place moved me deeply."
+        ]
+      },
+      {
+        "word": "gids",
+        "frequency": 5,
+        "percentage": 0.5945303210463734,
+        "sentiment_score": 0.5,
+        "example_phrases": [
+          "Hier had Mo een gids geregeld die ons alles kon vertellen tijdens het bezoek aan het museum.",
+          "Daarna Had Mo een bootje geregeld incl de gids om de oversteek te maken naar Kunta Kinthe Island.",
+          "Interessante dagtrip, de meerwaarde van onze gids spreekt voor zich...alles perfect geregeld En hij kon weer mooie foto's van ons maken."
+        ]
+      },
+      {
+        "word": "het",
+        "frequency": 5,
+        "percentage": 0.5945303210463734,
+        "sentiment_score": 0.5,
+        "example_phrases": [
+          "Hier had Mo een gids geregeld die ons alles kon vertellen tijdens het bezoek aan het museum.",
+          "Aan het einde van deze trip had Mo een lunch geregeld ter plekke, om vervolgens weer richting de ferry te gaan."
+        ]
+      },
+      {
+        "word": "minutes",
+        "frequency": 5,
+        "percentage": 0.5945303210463734,
+        "sentiment_score": 0.3222071256038647,
+        "example_phrases": [
+          "You will probably not hang around the island more than 15 minutes.",
+          "Then get the ferry to Barra (not very regular, maybe 1 every 1.5 hours, takes about 30 minutes to cross).",
+          "Then a pirogue boat to the island where a guide (with not great English) will show you around for about 30/40 minutes."
+        ]
+      },
+      {
+        "word": "slave",
+        "frequency": 5,
+        "percentage": 0.5945303210463734,
+        "sentiment_score": 0.2518207774486007,
+        "example_phrases": [
+          "A fascinating day trip around the island learning about the slave trade and past history.",
+          "This is typically followed by a tour of a slave trade museum which is housed in an old British warehouse.",
+          "Then you visit the small museum about the slave trade, which is interesting but a bit basic, again 30/40 minutes."
+        ]
+      },
+      {
+        "word": "trade",
+        "frequency": 5,
+        "percentage": 0.5945303210463734,
+        "sentiment_score": 0.22354908842804103,
+        "example_phrases": [
+          "A fascinating day trip around the island learning about the slave trade and past history.",
+          "The journey from Kololi to Kunta Kinteh is a long one, but well worth it to learn more about the appalling trade in human lives that was carried out.",
+          "This is typically followed by a tour of a slave trade museum which is housed in an old British warehouse."
+        ]
+      },
+      {
+        "word": "small",
+        "frequency": 5,
+        "percentage": 0.5945303210463734,
+        "sentiment_score": 0.1707257231404959,
+        "example_phrases": [
+          "On the return journey we stopped at a small village to distribute notebooks and pencils purchased on the way out.",
+          "Then you visit the small museum about the slave trade, which is interesting but a bit basic, again 30/40 minutes."
+        ]
+      },
+      {
+        "word": "pour",
+        "frequency": 5,
+        "percentage": 0.5945303210463734,
+        "sentiment_score": 0.21428571428571427,
+        "example_phrases": [
+          "Le trajet en ferry est une expérience nouvelle pour nous.",
+          "Le guide nous relate l'histoire de l'esclavage en anglais (Bamba est là pour nous traduire en Français).",
+          "Vient ensuite la visite du musée (séquence émotion en ce qui me concerne 😪)\nEt pour finir la rencontre avec la 8e génération de Kunta Kinteh."
+        ]
+      }
+    ],
+    "negative_keywords": [],
+    "overall_keywords": [
+      {
+        "word": "island",
+        "frequency": 29,
+        "percentage": 1.673398730525101,
+        "sentiment_score": 0.20202033106331524,
+        "example_phrases": [
+          "The island itself isn't big, so it doesn't take long to visit.",
+          "Daarna Had Mo een bootje geregeld incl de gids om de oversteek te maken naar Kunta Kinthe Island.",
+          "You will probably not hang around the island more than 15 minutes."
+        ]
+      },
+      {
+        "word": "die",
+        "frequency": 19,
+        "percentage": 1.0963646855164455,
+        "sentiment_score": 0.0625,
+        "example_phrases": [
+          "Hier had Mo een gids geregeld die ons alles kon vertellen tijdens het bezoek aan het museum.",
+          "Een emotionele zeer confronterende ervaring die je wel een andere blik geeft op de geschiedenis.",
+          "Alles gebeurde op ons eigen tempo, we bezochten de plaatsen die wij wilden bezoeken en de luxe van privé reizen onder ons 3 was zeer aangenaam!"
+        ]
+      },
+      {
+        "word": "kunta",
+        "frequency": 17,
+        "percentage": 0.9809578765147143,
+        "sentiment_score": 0.19980997996493863,
+        "example_phrases": [
+          "Daarna Had Mo een bootje geregeld incl de gids om de oversteek te maken naar Kunta Kinthe Island.",
+          "Day trip to kunta kinte island.",
+          "My visit to Kunta Kinteh Island was excellent."
+        ]
+      },
+      {
+        "word": "guide",
+        "frequency": 16,
+        "percentage": 0.9232544720138488,
+        "sentiment_score": 0.10180261595213985,
+        "example_phrases": [
+          "Tijdens deze excursie het ware verhaal gehoord van de tour guide en een lokale historicus.",
+          "A very interesting, sad, happy day, thanks to our guide Lamin.",
+          "I would recommend a guide / driver as there are a few steps to the journey of getting there, especially from the Serrekunda area."
+        ]
+      },
+      {
+        "word": "famara",
+        "frequency": 15,
+        "percentage": 0.8655510675129832,
+        "sentiment_score": -0.0625,
+        "example_phrases": [
+          "Wij hebben Famara ontmoet op de 2e dag dat we in Gambia waren.",
+          "We zaten op het terras en toen kwam Famara naar ons toe met de vraag of hij zijn fotoboek van zijn trips mocht laten zien.",
+          "Famara was erg enthousiast over zijn trips en kon hier veel over vertellen."
+        ]
+      },
+      {
+        "word": "museum",
+        "frequency": 14,
+        "percentage": 0.8078476630121176,
+        "sentiment_score": 0.14734597278544906,
+        "example_phrases": [
+          "Hier had Mo een gids geregeld die ons alles kon vertellen tijdens het bezoek aan het museum.",
+          "There is a museum on the mainland which is informative, but I believe that a fee is required to take photos.",
+          "I learned a lot there and really appreciated the knowledge from my guide and the museum."
+        ]
+      },
+      {
+        "word": "ferry",
+        "frequency": 14,
+        "percentage": 0.8078476630121176,
+        "sentiment_score": 0.24983722788657325,
+        "example_phrases": [
+          "Aan het einde van deze trip had Mo een lunch geregeld ter plekke, om vervolgens weer richting de ferry te gaan.",
+          "Took the ferry at 6 am from Banjul to Barra.",
+          "The ferry is inconsistent and isn't in the best of shape."
+        ]
+      },
+      {
+        "word": "man",
+        "frequency": 14,
+        "percentage": 0.8078476630121176,
+        "sentiment_score": 0.122310360094451,
+        "example_phrases": [
+          "The journey from Kololi to Kunta Kinteh is a long one, but well worth it to learn more about the appalling trade in human lives that was carried out.",
+          "Bamba est maintenant un ami,  il exerce ce métier avec passion depuis plusieurs années et est très professionnel, nous le recommandons sans hésiter.",
+          "Man kan godt blive lidt skuffet ved første øjekast."
+        ]
+      },
+      {
+        "word": "gambia",
+        "frequency": 13,
+        "percentage": 0.7501442585112521,
+        "sentiment_score": 0.23369121088068717,
+        "example_phrases": [
+          "Traveling with Malcolm  from Gambia Favourite Tours is always interesting and well organized.",
+          "We offer the best service eve \nWith keba ecotours gambia u get the best experience u need to now",
+          "I would recommend a visit to Kunte Kinteh Island to anyone visiting Gambia."
+        ]
+      },
+      {
+        "word": "kinteh",
+        "frequency": 13,
+        "percentage": 0.7501442585112521,
+        "sentiment_score": 0.12890538911845728,
+        "example_phrases": [
+          "My visit to Kunta Kinteh Island was excellent.",
+          "I would recommend a visit to Kunte Kinteh Island to anyone visiting Gambia.",
+          "The journey from Kololi to Kunta Kinteh is a long one, but well worth it to learn more about the appalling trade in human lives that was carried out."
+        ]
+      },
+      {
+        "word": "met",
+        "frequency": 13,
+        "percentage": 0.7501442585112521,
+        "sentiment_score": 0.13464285714285715,
+        "example_phrases": [
+          "We zaten op het terras en toen kwam Famara naar ons toe met de vraag of hij zijn fotoboek van zijn trips mocht laten zien.",
+          "Wij werden hierdoor ook enthousiast en besloten meerdere trips met Famara te doen.",
+          "Allereerst zijn wij met Famara naar Galloya village, snake farm en paradise beach geweest."
+        ]
+      },
+      {
+        "word": "een",
+        "frequency": 13,
+        "percentage": 0.7501442585112521,
+        "sentiment_score": 0.15467995169082124,
+        "example_phrases": [
+          "Hier had Mo een gids geregeld die ons alles kon vertellen tijdens het bezoek aan het museum.",
+          "Daarna Had Mo een bootje geregeld incl de gids om de oversteek te maken naar Kunta Kinthe Island.",
+          "Aan het einde van deze trip had Mo een lunch geregeld ter plekke, om vervolgens weer richting de ferry te gaan."
+        ]
+      },
+      {
+        "word": "ook",
+        "frequency": 10,
+        "percentage": 0.5770340450086555,
+        "sentiment_score": 0.23963083554702871,
+        "example_phrases": [
+          "Ook heeft hij steeds koude drankjes voor je bij ( water- frisdrank)erg fijn gezien de temperaturen.",
+          "Took the ferry at 6 am from Banjul to Barra.",
+          "Both of us enjoyed looking around although it was hot the day we visited"
+        ]
+      },
+      {
+        "word": "ons",
+        "frequency": 10,
+        "percentage": 0.5770340450086555,
+        "sentiment_score": 0.13258281573498962,
+        "example_phrases": [
+          "Hier had Mo een gids geregeld die ons alles kon vertellen tijdens het bezoek aan het museum.",
+          "Interessante dagtrip, de meerwaarde van onze gids spreekt voor zich...alles perfect geregeld En hij kon weer mooie foto's van ons maken.",
+          "He was very knowledgeable and answered all of my questions."
+        ]
+      },
+      {
+        "word": "het",
+        "frequency": 10,
+        "percentage": 0.5770340450086555,
+        "sentiment_score": 0.109375,
+        "example_phrases": [
+          "Hier had Mo een gids geregeld die ons alles kon vertellen tijdens het bezoek aan het museum.",
+          "Aan het einde van deze trip had Mo een lunch geregeld ter plekke, om vervolgens weer richting de ferry te gaan.",
+          "Tijdens deze excursie het ware verhaal gehoord van de tour guide en een lokale historicus."
+        ]
+      },
+      {
+        "word": "van",
+        "frequency": 10,
+        "percentage": 0.5770340450086555,
+        "sentiment_score": 0.109375,
+        "example_phrases": [
+          "Aan het einde van deze trip had Mo een lunch geregeld ter plekke, om vervolgens weer richting de ferry te gaan.",
+          "Interessante dagtrip, de meerwaarde van onze gids spreekt voor zich...alles perfect geregeld En hij kon weer mooie foto's van ons maken.",
+          "Tijdens deze excursie het ware verhaal gehoord van de tour guide en een lokale historicus."
+        ]
+      },
+      {
+        "word": "veel",
+        "frequency": 10,
+        "percentage": 0.5770340450086555,
+        "sentiment_score": -0.0625,
+        "example_phrases": [
+          "Famara was erg enthousiast over zijn trips en kon hier veel over vertellen.",
+          "Famara heeft daarnaast ook veel foto's gemaakt, zodat we veel herinneringen hebben.",
+          "Onderweg kon Famara ons al heel veel vertellen over de plekken waar we heen gingen, maar ook over de plekken waar wij langs kwamen."
+        ]
+      },
+      {
+        "word": "history",
+        "frequency": 9,
+        "percentage": 0.51933064050779,
+        "sentiment_score": 0.1181819358178054,
+        "example_phrases": [
+          "However, hearing the history definitely makes it an important and worthwhile visit.",
+          "A beautiful place with a terribly sad history.",
+          "The history of this place moved me deeply."
+        ]
+      },
+      {
+        "word": "alles",
+        "frequency": 9,
+        "percentage": 0.51933064050779,
+        "sentiment_score": 0.109375,
+        "example_phrases": [
+          "Hier had Mo een gids geregeld die ons alles kon vertellen tijdens het bezoek aan het museum.",
+          "Interessante dagtrip, de meerwaarde van onze gids spreekt voor zich...alles perfect geregeld En hij kon weer mooie foto's van ons maken.",
+          "Big Mo is een aanbeveling als je op zoek bent naar een betrouwbare, goed Engels sprekende gids, prettig in omgang is en alles perfect voor je regeld."
+        ]
+      },
+      {
+        "word": "der",
+        "frequency": 9,
+        "percentage": 0.51933064050779,
+        "sentiment_score": 0.08415178571428572,
+        "example_phrases": [
+          "De geschiedenis boeken in Nederland kunnen de open haard in.",
+          "Een emotionele zeer confronterende ervaring die je wel een andere blik geeft op de geschiedenis.",
+          "Alles gebeurde op ons eigen tempo, we bezochten de plaatsen die wij wilden bezoeken en de luxe van privé reizen onder ons 3 was zeer aangenaam!"
+        ]
+      }
+    ],
+    "bigrams": [
+      {
+        "phrase": "kunta kinteh",
+        "frequency": 12,
+        "words": [
+          "kunta",
+          "kinteh"
+        ]
+      },
+      {
+        "phrase": "kinteh island",
+        "frequency": 8,
+        "words": [
+          "kinteh",
+          "island"
+        ]
+      },
+      {
+        "phrase": "slave trade",
+        "frequency": 6,
+        "words": [
+          "slave",
+          "trade"
+        ]
+      },
+      {
+        "phrase": "kunta kinthe",
+        "frequency": 4,
+        "words": [
+          "kunta",
+          "kinthe"
+        ]
+      },
+      {
+        "phrase": "around island",
+        "frequency": 3,
+        "words": [
+          "around",
+          "island"
+        ]
+      },
+      {
+        "phrase": "boat island",
+        "frequency": 3,
+        "words": [
+          "boat",
+          "island"
+        ]
+      },
+      {
+        "phrase": "veel vertellen",
+        "frequency": 3,
+        "words": [
+          "veel",
+          "vertellen"
+        ]
+      },
+      {
+        "phrase": "met famara",
+        "frequency": 3,
+        "words": [
+          "met",
+          "famara"
+        ]
+      },
+      {
+        "phrase": "island big",
+        "frequency": 2,
+        "words": [
+          "island",
+          "big"
+        ]
+      },
+      {
+        "phrase": "met onze",
+        "frequency": 2,
+        "words": [
+          "met",
+          "onze"
+        ]
+      },
+      {
+        "phrase": "ook heeft",
+        "frequency": 2,
+        "words": [
+          "ook",
+          "heeft"
+        ]
+      },
+      {
+        "phrase": "heeft hij",
+        "frequency": 2,
+        "words": [
+          "heeft",
+          "hij"
+        ]
+      },
+      {
+        "phrase": "bezoek aan",
+        "frequency": 2,
+        "words": [
+          "bezoek",
+          "aan"
+        ]
+      },
+      {
+        "phrase": "aan het",
+        "frequency": 2,
+        "words": [
+          "aan",
+          "het"
+        ]
+      },
+      {
+        "phrase": "naar kunta",
+        "frequency": 2,
+        "words": [
+          "naar",
+          "kunta"
+        ]
+      }
+    ],
+    "trigrams": [
+      {
+        "phrase": "kunta kinteh island",
+        "frequency": 7,
+        "words": [
+          "kunta",
+          "kinteh",
+          "island"
+        ]
+      },
+      {
+        "phrase": "ook heeft hij",
+        "frequency": 2,
+        "words": [
+          "ook",
+          "heeft",
+          "hij"
+        ]
+      },
+      {
+        "phrase": "geboren wurde hier",
+        "frequency": 2,
+        "words": [
+          "geboren",
+          "wurde",
+          "hier"
+        ]
+      },
+      {
+        "phrase": "island big take",
+        "frequency": 1,
+        "words": [
+          "island",
+          "big",
+          "take"
+        ]
+      },
+      {
+        "phrase": "big take long",
+        "frequency": 1,
+        "words": [
+          "big",
+          "take",
+          "long"
+        ]
+      },
+      {
+        "phrase": "take long however",
+        "frequency": 1,
+        "words": [
+          "take",
+          "long",
+          "however"
+        ]
+      },
+      {
+        "phrase": "long however hearing",
+        "frequency": 1,
+        "words": [
+          "long",
+          "however",
+          "hearing"
+        ]
+      },
+      {
+        "phrase": "however hearing history",
+        "frequency": 1,
+        "words": [
+          "however",
+          "hearing",
+          "history"
+        ]
+      },
+      {
+        "phrase": "hearing history definitely",
+        "frequency": 1,
+        "words": [
+          "hearing",
+          "history",
+          "definitely"
+        ]
+      },
+      {
+        "phrase": "history definitely makes",
+        "frequency": 1,
+        "words": [
+          "history",
+          "definitely",
+          "makes"
+        ]
+      }
+    ]
+  },
+  "recurring_themes": {
+    "infrastructure_challenges": {
+      "description": "Issues related to infrastructure and accessibility",
+      "mention_count": 2,
+      "percentage": 8.333333333333332,
+      "average_sentiment": 0.1707257231404959,
+      "key_examples": [
+        "The trip was cheaper, the group smaller (we didn't lose an hour picking up from various other hotels) and the transport was in a mix of pick-up trucks and jeeps, as well as the ferry to the North and the small boat to the island.",
+        "Then another taxi to the museum (this leg will be easier soon as they're halfway through tarmacing the road)."
+      ],
+      "sentiment_breakdown": {
+        "positive": "2"
+      }
+    },
+    "natural_beauty": {
+      "description": "Appreciation for natural attractions and scenery",
+      "mention_count": 5,
+      "percentage": 20.833333333333336,
+      "average_sentiment": 0.192125,
+      "key_examples": [
+        "As another review said - I do wish they would keep up with it more if possible, as it's likely to be gone one day in the not-so-distant future due to decay (per our guide, even).",
+        "Took a taxi from there for a 30 minute ride to a beautiful fishing village, and from there took a nice boat ride to Kunta Kinteh island, which is a very tiny island.",
+        "A beautiful place with a terribly sad history.",
+        "Allereerst zijn wij met Famara naar Galloya village, snake farm en paradise beach geweest.",
+        "We were staying on the coast in the beach resorts (Kololi/Senegambia)."
+      ],
+      "sentiment_breakdown": {
+        "positive": "4",
+        "neutral": "1"
+      }
+    },
+    "cultural_authenticity": {
+      "description": "Experiences related to local culture and authenticity",
+      "mention_count": 10,
+      "percentage": 41.66666666666667,
+      "average_sentiment": 0.20935490135687768,
+      "key_examples": [
+        "However, hearing the history definitely makes it an important and worthwhile visit.",
+        "We bezochten dit met onze locale  chauffeur en gids Muhammed Camara (ook wel bekend Big Mo)\nOp de afgesproken tijd was Mo bij ons hotel, we reden naar de ferry en Mo regelde  de kaartjes voor de ferry.",
+        "A beautiful place with a terribly sad history.",
+        "With a local tour guard.",
+        "You need the layout and history explained virtually one to one as the island now is only a quarter of the size it was back in the days when it was occupied by slavers due to erosion and rising sea levels."
+      ],
+      "sentiment_breakdown": {
+        "positive": "7",
+        "neutral": "3"
+      }
+    },
+    "service_quality": {
+      "description": "Quality of service and staff interactions",
+      "mention_count": 1,
+      "percentage": 4.166666666666666,
+      "average_sentiment": 0.6666666666666666,
+      "key_examples": [
+        "We offer the best service eve \nWith keba ecotours gambia u get the best experience u need to now"
+      ],
+      "sentiment_breakdown": {
+        "positive": "1"
+      }
+    },
+    "value_concerns": {
+      "description": "Concerns about pricing and value for money",
+      "mention_count": 5,
+      "percentage": 20.833333333333336,
+      "average_sentiment": 0.22604028925619835,
+      "key_examples": [
+        "However, hearing the history definitely makes it an important and worthwhile visit.",
+        "The government really ought to put some money into the more popular visitors sites, the Slavery museum and its exhibits were of poor quality and Kunta Kinteh Island could do with a complete makeover before it suffers from further decay.",
+        "I believe it's worth a visit.",
+        "The journey from Kololi to Kunta Kinteh is a long one, but well worth it to learn more about the appalling trade in human lives that was carried out.",
+        "I expect we were overcharged and while it's a good place to visit, and the ferry and pirogue were also good experiences, I don't think it was worth it in terms of the cost and time travelling."
+      ],
+      "sentiment_breakdown": {
+        "positive": "5"
+      }
+    }
+  },
+  "language_analysis": {
+    "language_distribution": {
+      "english": {
+        "review_count": 13,
+        "percentage": 54.166666666666664
+      },
+      "spanish": {
+        "review_count": 3,
+        "percentage": 12.5
+      },
+      "dutch": {
+        "review_count": 3,
+        "percentage": 12.5
+      },
+      "french": {
+        "review_count": 3,
+        "percentage": 12.5
+      },
+      "german": {
+        "review_count": 2,
+        "percentage": 8.333333333333332
+      }
+    },
+    "diversity_score": 5,
+    "primary_language": "english",
+    "international_appeal": 45.83333333333333,
+    "insights": [
+      "Strong international visitor base - consider multilingual services"
+    ]
+  },
+  "responsiveness_analysis": {
+    "overall_responsiveness_score": 16.666666666666664,
+    "responsiveness_areas": {
+      "service_recovery": {
+        "mention_count": 2,
+        "percentage": 8.333333333333332,
+        "average_sentiment": 0.18632807821295966,
+        "examples": [
+          "Abdoulie sat in the back of the jeep with us en-route to the small museum and told us stories about life in Gambia, before passing over to another guide at the museum (I'm sorry, I've forgotten his name) who also took us over to Kunta Kinteh island, who was passionate about passing on the information about the trans-Atlantic slave trade, much of which originated from this point, and ensuring that what happened is never forgotten.",
+          "The island itself can be seen in roughly ten minutes but I've found that the guide often makes the experience better depending on how much they actually know about the island's history."
+        ]
+      },
+      "feedback_acknowledgment": {
+        "mention_count": 2,
+        "percentage": 8.333333333333332,
+        "average_sentiment": 0.10889536599763874,
+        "examples": [
+          "I learned a lot there and really appreciated the knowledge from my guide and the museum.",
+          "It seems like a minor thing but Abdoulie assured us that having grown up in that area he knows how important and appreciated these items are."
+        ]
+      }
+    },
+    "recommendations": [
+      "Increase management engagement with guest feedback"
+    ]
+  },
+  "temporal_patterns": {},
+  "executive_summary": {
+    "key_findings": [
+      "58.3% of reviews express positive sentiment"
+    ],
+    "strengths": [
+      "Positive theme: Experiences related to local culture and authenticity",
+      "Positive theme: Concerns about pricing and value for money",
+      "Strong international appeal (45.8% non-English reviews)"
+    ],
+    "areas_for_improvement": [],
+    "strategic_recommendations": [],
+    "competitive_positioning": []
+  }
+}
