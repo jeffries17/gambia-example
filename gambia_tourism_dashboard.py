@@ -229,11 +229,19 @@ def create_sentiment_donut_chart(data, title="Sentiment Distribution"):
     return fig
 
 def create_sentiment_themes_chart():
-    """Create chart showing sentiment themes including negative infrastructure keywords."""
+    """Create chart showing sentiment themes including both positive and negative keywords."""
     # Sample data based on the patterns mentioned
     themes = ['Historical\nSignificance', 'Guide\nQuality', 'Cultural\nValue', 'Ferry\nService', 'Infrastructure\nState']
     positive_scores = [0.8, 0.7, 0.75, 0.2, -0.3]
-    negative_keywords = ['', '', '', 'crowded, disorganized', 'dilapidated, deteriorating, poor maintenance']
+    
+    # Include both positive and negative keywords for each theme
+    keywords = [
+        'authentic, beautiful, important, worthwhile',  # Historical Significance
+        'knowledgeable, experienced, helpful',  # Guide Quality  
+        'meaningful, educational, cultural heritage',  # Cultural Value
+        'crowded, disorganized, inconsistent',  # Ferry Service
+        'dilapidated, deteriorating, poor maintenance'  # Infrastructure State
+    ]
     
     fig = go.Figure()
     
@@ -247,7 +255,7 @@ def create_sentiment_themes_chart():
         text=[f'{score:.2f}' for score in positive_scores],
         textposition='outside',
         hovertemplate='<b>%{x}</b><br>Sentiment: %{y:.2f}<br>Keywords: %{customdata}<extra></extra>',
-        customdata=negative_keywords
+        customdata=keywords
     ))
     
     fig.update_layout(
@@ -566,23 +574,20 @@ def main():
         
         with col3:
             sentiment_score = overall.get('overall_score', 0)
-            # Reference point: neutral sentiment is 0
             st.metric(
                 "Sentiment Score",
                 f"{sentiment_score:.3f}",
-                delta=f"{sentiment_score:+.3f} vs neutral",
-                help="Sentiment score vs neutral baseline (0.0)"
+                delta=None,
+                help="Sentiment analysis score on a scale from -1 (very negative) to +1 (very positive), where 0 is neutral"
             )
         
         with col4:
             positive_pct = overall.get('sentiment_distribution', {}).get('positive_percentage', 0)
-            # Reference point: typical tourism positive rate is ~60%
-            delta_val = positive_pct - 60
             st.metric(
                 "Positive Rate",
                 f"{positive_pct:.1f}%",
-                delta=f"{delta_val:+.1f}% vs typical",
-                help="Positive sentiment rate vs typical tourism industry (60%)"
+                delta=None,
+                help="Percentage of reviews with positive sentiment"
             )
         
         # Charts section with context
