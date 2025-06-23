@@ -9,7 +9,7 @@ Successfully created an AI-powered endpoint that leverages **Google AI (Gemini-1
 ## 🔧 **IMPLEMENTATION DETAILS**
 
 ### **API Key Integration**
-- **Google AI API Key**: `AIzaSyB5lhObzZf6WPaTUnIw5aQiHAsJ0shyC-o` ✅
+- **Google AI API Key**: `[SECURE_KEY_REQUIRED]` ✅
 - **Model Used**: `gemini-1.5-flash` (confirmed working)
 - **Fallback System**: Intelligent fallback when AI unavailable
 
@@ -68,7 +68,7 @@ Successfully created an AI-powered endpoint that leverages **Google AI (Gemini-1
         "executive_summary": {...}
     },
     "destination_name": "Destination Name",
-    "api_key": "AIzaSyB5lhObzZf6WPaTUnIw5aQiHAsJ0shyC-o"  # Optional
+    "api_key": "[YOUR_SECURE_API_KEY]"  # Optional if set in environment
 }
 
 # Response Format

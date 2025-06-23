@@ -1,0 +1,52 @@
+[
+  {
+    "id": "619283527",
+    "url": "https://www.tripadvisor.com/ShowUserReviews-g294142-d3377265-r619283527-Precious_Stone-Nuku_alofa_Tongatapu_Island.html",
+    "title": "WOW - the best on the island",
+    "lang": "en",
+    "locationId": "3377265",
+    "publishedDate": "2018-09-24",
+    "publishedPlatform": "OTHER",
+    "rating": 5,
+    "helpfulVotes": 0,
+    "text": "6 of us went to dinner at Precious Stone. Friends had said it is their favorite place to eat when they are in Tonga. Now it is my favorite place too. There are many choices, and the 12 which we ordered were all wonderful. Kudos especially to the fried rice and sweet and sour chicken. We will be back.",
+    "roomTip": null,
+    "travelDate": "2018-09",
+    "tripType": "COUPLES",
+    "user": {
+      "userId": "0FE02403EF7D236683AC3B817151F1A6",
+      "name": "rizzeroo",
+      "contributions": {
+        "totalContributions": 16,
+        "helpfulVotes": 3
+      },
+      "username": "rizzeroo",
+      "userLocation": {
+        "shortName": "Cairns",
+        "name": "Cairns, Australia",
+        "id": "255069"
+      }
+    },
+    "subratings": [
+      {
+        "name": "Value",
+        "value": 5
+      },
+      {
+        "name": "Service",
+        "value": 5
+      },
+      {
+        "name": "Food",
+        "value": 5
+      }
+    ],
+    "placeInfo": {
+      "id": "3377265",
+      "name": "Precious Stone",
+      "rating": 4.5,
+      "numberOfReviews": 9,
+      "locationString": "Nuku'alofa, Tongatapu Island"
+    }
+  }
+]

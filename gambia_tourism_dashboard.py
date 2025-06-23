@@ -779,22 +779,22 @@ def main():
         
         st.markdown("""
         <div class="expansion-panel">
-            <h3>🎯 Expanding Tourism Intelligence Across The Gambia</h3>
+            <h3>Expanding Tourism Intelligence Across The Gambia</h3>
             <p>This Kunta Kinteh Island analysis demonstrates the power of data-driven tourism management. For tourism and development stakeholders, expanding this approach offers significant strategic advantages for national competitiveness and economic development.</p>
         </div>
         """, unsafe_allow_html=True)
         
         # Within Gambia comparisons
-        st.markdown("## 🇬🇲 Within-Country Industry Analysis")
+        st.markdown("## Within-Country Industry Analysis")
         
         col1, col2 = st.columns(2)
         
         with col1:
-            st.markdown("### 🏮 Creative Tourism Sectors")
+            st.markdown("### Creative Tourism Sectors")
             st.markdown("""
             **Market & Festival Analysis:**
             - **Value:** Understanding which cultural experiences drive highest visitor satisfaction enables targeted investment in festival programming and market infrastructure improvements
-            - **Impact:** Data-driven cultural event planning can increase visitor engagement by 25-40% and extend average stay duration
+            - **Impact:** Data-driven cultural event planning can increase visitor engagement and extend average stay duration
             
             **Arts & Crafts Experience Evaluation:**
             - **Value:** Identifying factors that make artisan experiences memorable (authenticity, interaction quality, storytelling) helps scale successful models across multiple craft centers
@@ -802,11 +802,11 @@ def main():
             
             **Community Tourism Assessment:**
             - **Value:** Understanding visitor expectations for cultural immersion helps communities develop sustainable tourism offerings while preserving cultural integrity
-            - **Impact:** Evidence-based community tourism development can generate 15-30% higher revenue per visitor while maintaining authentic cultural experiences
+            - **Impact:** Evidence-based community tourism development can generate higher revenue per visitor while maintaining authentic cultural experiences
             """)
         
         with col2:
-            st.markdown("### 📊 Cross-Industry Insights")
+            st.markdown("### Cross-Industry Insights")
             st.markdown("""
             **Digital Reputation Visibility:**
             - **Value:** Tracking which tourism sectors have strongest online presence reveals gaps where marketing investment could yield highest returns
@@ -814,20 +814,20 @@ def main():
             
             **Industry Representation Analysis:**
             - **Value:** Identifying which sectors are better represented online reveals opportunities for under-promoted but high-quality experiences to gain visibility
-            - **Impact:** Strategic digital marketing allocation can increase visitor awareness of diverse Gambian tourism offerings by 40-60%
+            - **Impact:** Strategic digital marketing allocation can increase visitor awareness of diverse Gambian tourism offerings
             
             **Cross-Sector Learning Transfer:**
             - **Value:** Success patterns from high-performing sectors (guide quality, cultural authenticity) can be systematically applied to improve under-performing areas
-            - **Impact:** Standardizing best practices across tourism sectors can improve overall visitor satisfaction scores by 20-35%
+            - **Impact:** Standardizing best practices across tourism sectors can improve overall visitor satisfaction scores
             """)
         
         # Regional comparisons
-        st.markdown("## 🌍 Regional Best Practices Analysis")
+        st.markdown("## Regional Best Practices Analysis")
         
         col1, col2 = st.columns(2)
         
         with col1:
-            st.markdown("### 🏝️ West African Heritage Sites")
+            st.markdown("### West African Heritage Sites")
             st.markdown("""
             **Context:** Comparative analysis with regional heritage sites provides benchmarking data for positioning Gambia competitively in the West African cultural tourism market.
             
@@ -842,10 +842,10 @@ def main():
             """)
         
         with col2:
-            st.markdown("### 🔄 Implementation Framework")
+            st.markdown("### Implementation Framework")
             st.markdown("""
             **Phase 1: Digital Reputation Approach (0-6 months)**
-            - Comprehensive sentiment analysis across 15+ Gambian tourism sites
+            - Comprehensive sentiment analysis across Gambian tourism sites
             - Digital reputation assessment for key tourism experiences
             - Baseline establishment for continuous monitoring
             
@@ -860,32 +860,26 @@ def main():
             - Partnership development based on sentiment analysis insights
             """)
         
-        # Value proposition
+        # Value proposition with improved formatting
+        st.markdown("---")
+        st.markdown("### Expected ROI for Tourism & Development Stakeholders")
+        
+        st.markdown("**National Tourism Intelligence Benefits:**")
         st.markdown("""
-        <div class="recommendation-panel">
-            <div class="recommendation-title">
-                💡 Expected ROI for Tourism & Development Stakeholders
-            </div>
-            <div class="timeframe-section">
-                <h4>National Tourism Intelligence Benefits:</h4>
-                <ul>
-                    <li><strong>Investment Prioritization:</strong> Data-driven infrastructure and marketing budget allocation based on visitor feedback patterns</li>
-                    <li><strong>Competitive Positioning:</strong> Evidence-based comparison with Senegal, Ghana, and regional destinations for strategic advantage</li>
-                    <li><strong>Crisis Prevention:</strong> Early warning system for reputation issues across multiple tourism sectors</li>
-                    <li><strong>Success Replication:</strong> Systematic identification and scaling of best practices across different tourism experiences</li>
-                    <li><strong>Digital Diplomacy:</strong> Enhanced international visibility through strategic online reputation management</li>
-                </ul>
-                
-                <h4>Measurable Economic Impact:</h4>
-                <ul>
-                    <li><strong>15-25%</strong> improvement in online ratings across monitored sectors</li>
-                    <li><strong>30-40%</strong> faster response to visitor concerns through systematic monitoring</li>
-                    <li><strong>Evidence-based policy:</strong> Tourism development decisions backed by visitor sentiment data</li>
-                    <li><strong>Regional competitiveness:</strong> Enhanced positioning vs neighboring countries through data-driven improvements</li>
-                </ul>
-            </div>
-        </div>
-        """, unsafe_allow_html=True)
+        - **Investment Prioritization:** Data-driven infrastructure and marketing budget allocation based on visitor feedback patterns
+        - **Competitive Positioning:** Evidence-based comparison with Senegal, Ghana, and regional destinations for strategic advantage
+        - **Crisis Prevention:** Early warning system for reputation issues across multiple tourism sectors
+        - **Success Replication:** Systematic identification and scaling of best practices across different tourism experiences
+        - **Digital Diplomacy:** Enhanced international visibility through strategic online reputation management
+        """)
+        
+        st.markdown("**Measurable Economic Impact:**")
+        st.markdown("""
+        - **Improved online ratings** across monitored sectors through systematic feedback response
+        - **Faster response to visitor concerns** through systematic monitoring and alert systems
+        - **Evidence-based policy development:** Tourism development decisions backed by visitor sentiment data
+        - **Enhanced regional competitiveness:** Improved positioning vs neighboring countries through data-driven improvements
+        """)
 
 if __name__ == "__main__":
     main() 
