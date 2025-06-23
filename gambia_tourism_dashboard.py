@@ -668,7 +668,7 @@ def main():
                 with st.expander("🔍 Digital Reputation Management", expanded=True):
                     if len(parsed_insights) > 1:
                         insight = parsed_insights[1]
-                        st.markdown('<h3 style="color: #E74C3C; font-size: 1.4rem; font-weight: 700;">🚨 CHALLENGE</h3>', unsafe_allow_html=True)
+                        st.markdown('<h3 style="color: #E74C3C; font-size: 1.8rem; font-weight: 700;">🚨 CHALLENGE</h3>', unsafe_allow_html=True)
                         st.write(insight['issue'])
                         
                         col1, col2, col3 = st.columns(3)
@@ -685,7 +685,7 @@ def main():
                 with st.expander("🌐 Digital Visibility Enhancement"):
                     if len(parsed_insights) > 2:
                         insight = parsed_insights[2]
-                        st.markdown('<h3 style="color: #E74C3C; font-size: 1.4rem; font-weight: 700;">🚨 CHALLENGE</h3>', unsafe_allow_html=True)
+                        st.markdown('<h3 style="color: #E74C3C; font-size: 1.8rem; font-weight: 700;">🚨 CHALLENGE</h3>', unsafe_allow_html=True)
                         st.write(insight['issue'])
                         
                         col1, col2, col3 = st.columns(3)
@@ -706,19 +706,8 @@ def main():
                 with st.expander("🏛️ Infrastructure & Preservation", expanded=True):
                     if len(parsed_insights) > 0:
                         insight = parsed_insights[0]
-                        st.markdown('<h3 style="color: #E74C3C; font-size: 1.4rem; font-weight: 700;">🚨 CHALLENGE</h3>', unsafe_allow_html=True)
+                        st.markdown('<h3 style="color: #E74C3C; font-size: 1.8rem; font-weight: 700;">🚨 CHALLENGE</h3>', unsafe_allow_html=True)
                         st.write(insight['issue'])
-                        
-                        col1, col2, col3 = st.columns(3)
-                        with col1:
-                            st.markdown("**🎯 Recommended Action**")
-                            st.write(insight['action'])
-                        with col2:
-                            st.markdown("**📈 Expected Outcome**")
-                            st.write(insight['impact'])
-                        with col3:
-                            st.markdown("**⏰ Timeline**")
-                            st.write(insight['timeline'])
     
     with tab4:
         # Enhanced Methodology with more context
